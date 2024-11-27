@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html
+lang="en"
+class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,13 +9,117 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Dia</title>
+    <link rel="icon" href="./images/logo/dia-logo.svg">
     <link
       rel="stylesheet"
-      href="./styles/main.scss"
+      href="./styles/style.scss"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin="anonymous"
+    >
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+    >
+    <script src="scripts/main.js">
+    </script>
   </head>
   <body>
-    <h1>Dia</h1>
-    <script src="scripts/main.js"></script>
+    <header class="header">
+      <div class="container">
+        <div class="nav__wrapper">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+              src="./images/logo/air-logo.png"
+              alt="logo"
+              class="nav__logo"
+              >
+            </a>
+          </div>
+
+          <nav class="nav">
+            <a href="#menu" class="nav__burger-menu">
+              <img src="./images/burger-menu.png" alt="burger menu">
+            </a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  About us
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Services
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Testimonials
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="nav__item--hire-us">
+            <a href="#" class="nav__link">
+            Hire us
+            </a>
+          </div>
+        </div>
+        <div class="header__information">
+          <h1 class="header__information-title">Strategic Agency</h1>
+          <h2 class="header__information-text">We believe in the power of bold ideas that can solve business challenges.</h2>
+          <button class="header__information-learn-more">Learn more</button>
+        </div>
+
+
+      </div>
+      <div class="header__photo-block">
+        <img
+        src="./images/header-photo-block/header-hand-watch.png"
+        alt="hand watch"
+        class="header__photo"
+        >
+        <div class="header__photo-change">
+          <div class="header__photo-change--wrapper">
+            <a href="#"
+            class=
+            "header__photo-change--left
+            header__photo-change--decoration"
+            >
+              <img src="./images/slider/arrow-left.png" alt="previous photo">
+            </a>
+            <a href="#"
+            class=
+            "header__photo-change--right
+            header__photo-change--decoration"
+            >
+              <img src="./images/slider/arrow-right.png" alt="next photo">
+            </a>
+          </div>
+          <div class="header__photo-change--text">
+            <p><span>Intro</span><br></p>
+            <p>By the same illusion which lifts the <br>horizon.</p>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <main class="main">
+      <div class="container">
+
+
+        
+      </div>
+
+    </main>
   </body>
 </html>
