@@ -31,19 +31,19 @@
   grid-template-columns: repeat(var(--column), 1fr);
 
   @include on-tablet {
-    --colums: 6;
+    --column: 6;
 
     column-gap: 30px;
   }
 
   @include on-small-desktop {
-    --colums: 12;
+    --column: 12;
 
     column-gap: 20px;
   }
 
   @include on-large-desktop {
-    --colums: 12;
+    --column: 12;
 
     column-gap: 30px;
   }
