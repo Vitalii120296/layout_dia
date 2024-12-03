@@ -20,7 +20,7 @@ class="page">
     href="https://fonts.gstatic.com"
     crossorigin="anonymous"
     >
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
     <script src="scripts/main.js">
     </script>
@@ -112,40 +112,242 @@ class="page">
 
     </header>
     <main class="main">
+      <!-- #region About us -->
       <div class="container">
-
-        <div class="about-us">
+        <section class="about-us" id="about-us">
           <div class="about-us__title">
             <h2>Who we are</h2>
           </div>
           <div class="about-us__information">
             We embrace a strategic approach to creative ideas. We are interested in people and human relationships. This is the main thing you need to know about us. We believe in the power of bold ideas that can solve business challenges.
           </div>
-        </div>
+        </section>
       </div>
-
-      <div class="our-expertise__wrapper">
+      <!-- #endregion -->
+      <!-- #region Our expertise -->
+      <section class="our-expertise__wrapper">
         <div class="container">
-          <div class="our-expertise">
+          <h2 class="our-expertise">
             Our expertise
-          </div>
+          </h2>
+          <div class="our-expertise__category ">
 
-          <div class="our-expertise__category">
-            <div class="our-expertise__category--photo">
-              <img src="./images/our-expertise/image 1.png" alt="image 1">
-            </div>
-            <div class="our-expertise__category--title">
-              Branding
-            </div>
-            <div class="our-expertise__category--information">
-              We create additional value for companies, products, services as well as verbal and visual ways to deliver it to the audience.
-            </div>
-          </div>
+            <article class="
+            our-expertise__category--wrapper
+            our-expertise__category--align-left
+            ">
+              <div class="our-expertise__category--photo">
+                <img src="./images/our-expertise/image 1.png" alt="image 1">
+              </div>
+              <h3 class="our-expertise__category--title">
+                Branding
+              </h3>
+              <div class="our-expertise__category--information">
+                We create additional value for companies, products, services as well as verbal and visual ways to deliver it to the audience.
+              </div>
+            </article>
 
+            <article class="our-expertise__category--wrapper">
+              <div class="our-expertise__category--photo">
+                <img src="./images/our-expertise/image 2.png" alt="image 2">
+              </div>
+              <h2 class="our-expertise__category--title">
+                Communication
+              </h2>
+              <h3 class="our-expertise__category--information">
+                We strive to create communications that can increase media performance. We use everything — words, meanings, stories, art, movies.
+              </h3>
+            </article>
+
+            <article class="
+            our-expertise__category--wrapper
+            our-expertise__category--align-right
+            ">
+              <div class="our-expertise__category--photo">
+                <img src="./images/our-expertise/image 3.png" alt="image 1">
+              </div>
+              <h2 class="our-expertise__category--title">
+                Strategy
+              </h2>
+              <h3 class="our-expertise__category--information">
+                We create business growth strategies, from the moment of its birth to the achievement of the necessary business indicators.
+              </h3>
+
+            </article>
+          </div>
         </div>
+      </section>
+      <!-- #endregion -->
+      <!-- #region Services -->
+      <div class="container">
+        <section class="service">
+          <div class="service__title--column">
+            <p>Services</p>
+            <h2 class="service__title">
+              Air is a full service creative agency
+            </h2>
+            <div class="service__information">
+              Deep analytics, strong strategy and bright creative ideas.<br><br>
+              We are sure that first-rate job is possible only if all three components are united.
+            </div>
+          </div>
+
+
+          <div class="service--items-subgrid">
+            <div class="service__item-1">
+              <div class="service__item--number">
+                <p>001</p>
+              </div>
+              <div class="service__item--jobs">
+                Brand Development<br>
+                Copywriting<br>
+                Logo & Webite Design<br>
+                Packaging
+              </div>
+              <div class="service__item--learn-more">
+                <div id="learn-more1" class="service__item--learn-more-button">
+                  <img src="./images/services/learn-more.png" alt="learn-more">
+                </div>
+                <label for="learn-more3">Learn more</label>
+              </div>
+            </div>
+            <div class="service__item-2">
+              <div class="service__item--number">
+                <p>002</p>
+              </div>
+              <div class="service__item--jobs">
+                Сontent Production<br>
+                Graphic Design<br>
+                Video Production<br>
+                Post Production
+              </div>
+              <div class="service__item--learn-more">
+                <div id="learn-more2" class="service__item--learn-more-button">
+                  <img src="./images/services/learn-more.png" alt="learn-more">
+                </div>
+                <label for="learn-more3">Learn more</label>
+              </div>
+            </div>
+            <div class="service__item-3">
+              <div class="service__item--number">
+                <p>003</p>
+              </div>
+              <div class="service__item--jobs">
+                Marketing Strategy<br>
+                Email Marketing<br>
+                Paid Advertising<br>
+                Blog Content & SEO
+              </div>
+              <div class="service__item--learn-more">
+                <div id="learn-more3" class="service__item--learn-more-button">
+                  <img src="./images/services/learn-more.png" alt="learn-more">
+                </div>
+                <label for="learn-more3">Learn more</label>
+              </div>
+            </div>
+            <div class="service__item-4">
+              <div class="service__item--number">
+                <p>004</p>
+              </div>
+              <div class="service__item--jobs">
+                Digital Communications<br>
+                Influencer Marketing<br>
+                Product Placements<br>
+                Strategic Partnerships
+              </div>
+              <div class="service__item--learn-more">
+                <div id="learn-more4" class="service__item--learn-more-button">
+                  <img src="./images/services/learn-more.png" alt="learn-more">
+                </div>
+                <label for="learn-more3">Learn more</label>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- #endregion -->
+      <!-- #region Testimonials -->
+      <div class="container">
+        <section class="testimonials block-margin">
+          <p>
+            Testimonials
+          </p>
+          <div class="testimonials__title">
+            What people&nbsp;say
+          </div>
+          <div class="testimonials__cards">
+
+            <article class="testimonials__card">
+              <div class="testimonials__card-photo">
+                <img src="./images/testimonials/testimonial-ava-1.jpg" alt="avatar">
+              </div>
+              <div class="testimonials__card-comment">
+                <img src="./images/testimonials/“.png" alt="image">
+                AIR’s ideas are refreshing and out of the box. Authentic team that focuses on the important path of the brand.
+              </div>
+              <div class="testimonials__card-name-professional--wrapper">
+                <div class="testimonials__card-name">
+                  Tal Gilad
+                </div>
+                <div class="testimonials__card-profession">
+                  Teach for America
+                </div>
+              </div>
+            </article>
+            <article class="testimonials__card">
+              <div class="testimonials__card-photo">
+                <img src="./images/testimonials//testimonial-ava-2.jpg" alt="avatar">
+              </div>
+              <div class="testimonials__card-comment">
+                <img src="./images/testimonials/“.png" alt="image">
+                AIR is an exceptional agency that leads with creative talent, first-class account servicing.
+              </div>
+              <div class="testimonials__card-name-professional--wrapper">
+                <div class="testimonials__card-name">
+                  Azadeh Hawkins
+                </div>
+                <div class="testimonials__card-profession">
+                  Hawkins Consulting
+                </div>
+              </div>
+            </article>
+            <article class="testimonials__card">
+              <div class="testimonials__card-photo">
+                <img src="./images/testimonials/testimonial-ava-3.jpg" alt="avatar">
+              </div>
+              <div class="testimonials__card-comment">
+                <img src="./images/testimonials/“.png" alt="image">
+                AIR raises the agency bar to stratospheric heights on both creative output and client service.
+              </div>
+              <div class="testimonials__card-name-professional--wrapper">
+                <div class="testimonials__card-name">
+                  Michel Grover
+                </div>
+                <div class="testimonials__card-profession">
+                  Hulu
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
       </div>
 
 
+      <!-- #endregion -->
+      <!-- #region Components -->
+
+      <div class="components--background">
+        <div class="components container ">
+          <div class="components__title">
+            Vision, Passion, Results
+          </div>
+          <div class="components__information">
+            We are sure that first-rate job is possible only if all three components are united.
+          </div>
+          <button class="button">Apply</button>
+        </div>
+      </div>
+      <!-- #endregion -->
     </main>
   </body>
 </html>

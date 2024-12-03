@@ -59,12 +59,21 @@
   @include on-small-desktop {
     padding-inline: 54px;
     margin-inline: auto;
-    max-width: 1020px;
+    max-width: 1200px;
   }
 
   @include on-large-desktop {
     padding-inline: 227px;
 
+  }
+
+}
+
+.block-margin{
+  margin-block: 120px;
+
+  @include on-tablet {
+    margin-block: 148px;
   }
 
 }
