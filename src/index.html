@@ -45,22 +45,22 @@ class="page">
             </a>
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#about-us" class="nav__link">
                   About us
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#service" class="nav__link">
                   Services
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#testimonials" class="nav__link">
                   Testimonials
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">
+                <a href="#contact-us" class="nav__link">
                   Contact Us
                 </a>
               </li>
@@ -104,7 +104,7 @@ class="page">
             </a>
           </div>
           <div class="header__photo-change--text">
-            <p><span>Intro</span><br></p>
+            <h3>Intro</h3><br>
             <p>By the same illusion which lifts the <br>horizon.</p>
           </div>
         </div>
@@ -125,7 +125,7 @@ class="page">
       </div>
       <!-- #endregion -->
       <!-- #region Our expertise -->
-      <section class="our-expertise__wrapper">
+      <section class="our-expertise__wrapper" id="our-expertise">
         <div class="container">
           <h2 class="our-expertise">
             Our expertise
@@ -180,7 +180,7 @@ class="page">
       <!-- #endregion -->
       <!-- #region Services -->
       <div class="container">
-        <section class="service">
+        <section class="service" id="service">
           <div class="service__title--column">
             <p>Services</p>
             <h2 class="service__title">
@@ -268,7 +268,7 @@ class="page">
       <!-- #endregion -->
       <!-- #region Testimonials -->
       <div class="container">
-        <section class="testimonials block-margin">
+        <section class="testimonials block-margin" id="testimonials">
           <p>
             Testimonials
           </p>
@@ -337,7 +337,7 @@ class="page">
       <!-- #region Components -->
 
       <div class="components--background">
-        <div class="components container ">
+        <section class="components container ">
           <div class="components__title">
             Vision, Passion, Results
           </div>
@@ -345,9 +345,112 @@ class="page">
             We are sure that first-rate job is possible only if all three components are united.
           </div>
           <button class="button">Apply</button>
-        </div>
+        </section>
       </div>
       <!-- #endregion -->
     </main>
+    <footer>
+      <!-- #region Footer -->
+      <section class="footer__wrapper">
+        <div class="footer container">
+          <article class="footer__message">
+            <h2 class="footer__message-title">
+              Send us  a message
+            </h2>
+            <form
+            id="contact-us"
+            action="#"
+            method="post"
+            onsubmit="this.reset(); return false;"
+            >
+              <input
+              type="email"
+              class="footer__message-input"
+              placeholder="Your email"
+              ><br>
+              <input
+              type="text"
+              class="footer__message-input"
+              placeholder="Your name"
+              ><br>
+              <input
+              type="text"
+              class="footer__message-input"
+              placeholder="Your message"
+              ><br>
+              <button type="submit">Send</button>
+            </form>
+          </article>
+
+          <article class="footer__contact">
+            <h2 class="footer__contact-title">
+              Contact us
+            </h2>
+            <div class="footer__contact-information">
+              <h3>Call us</h3>
+              <p>654 321 987</p>
+            </div>
+            <div class="footer__contact-information">
+              <h3>Visit us</h3>
+              <p>2905 West Drive, Buffalo Grove</p>
+            </div>
+            <div class="footer__contact-information">
+              <h3>our socials</h3>
+              <p>
+                <img
+                class="footer__contact-information-image"
+                src="./images/contact-us/facebook-logo.png"
+                alt="facebook"
+                >
+                <img
+                class="footer__contact-information-image"
+                src="./images/contact-us/twitter.png"
+                alt="twitter"
+                >
+                <img
+                class="footer__contact-information-image"
+                src="./images/contact-us/instagram.png"
+                alt="instagram"
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="footer__menu">
+            <div class="footer__menu-logo">
+              <img src="./images/logo/air-logo.png" alt="air logo">
+            </div>
+            <ul  class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  About us
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Home
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Work
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Services
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <!-- #endregion -->
+    </footer>
   </body>
 </html>
