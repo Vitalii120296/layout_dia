@@ -15,8 +15,11 @@
   &__message{
     display: flex;
     flex-direction: column;
-
     grid-column: 1 /-1;
+
+    @include on-small-desktop{
+      grid-column: 1 / 6;
+    }
 
     & button{
       @extend %button;
@@ -64,7 +67,13 @@
   &__contact{
     grid-column: 1 / -1;
 
+    @include on-small-desktop{
+      grid-column: 7 / 12;
+    }
 
+    @include on-large-desktop{
+      grid-column: 8 / 13;
+    }
 
     &-title{
       font-size: 32px;
@@ -93,12 +102,25 @@
         margin-bottom: 40px;
       }
 
+      & a{
+        text-decoration: none;
+        color: inherit;
+      }
+      & a:hover{
+        color: #144ED4;
+      }
+
       &-image{
         object-fit: contain;
         object-position: center;
         width: 32px;
         height: 32px;
         margin-right: 32px;
+        fill: #fff;
+
+        &:hover path{
+          fill: #144ED4;
+        }
       }
     }
   }
@@ -136,7 +158,6 @@
 
       @include on-tablet{
         flex-direction: row;
-
 
         & :not(:last-child){
           margin-right: 64px;
