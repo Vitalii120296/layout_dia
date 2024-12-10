@@ -131,6 +131,7 @@
     margin-top: 80px;
     grid-column: span 2;
 
+
     @include on-tablet{
       margin-top: 139px;
       grid-column: 1 / -1;
@@ -156,6 +157,7 @@
       flex-direction: column;
       justify-content: start;
 
+
       @include on-tablet{
         flex-direction: row;
 
@@ -166,6 +168,7 @@
 
       @include on-small-desktop{
         justify-content: end;
+        margin: 0;
       }
 
     }
@@ -175,13 +178,10 @@
       text-decoration: none;
     }
 
+
     &-item{
-      list-style: none;
-      size: 13px;
-      line-height: 150%;
-      letter-spacing: 3px;
-      font-weight: 700;
-      margin:0 0 24px;
+      @extend %nav-decoration;
     }
+
   }
 }

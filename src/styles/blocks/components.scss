@@ -65,5 +65,14 @@
       grid-column: 3 / -3;
     }
 
+    & a{
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }

@@ -8,7 +8,7 @@ class="page">
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Dia</title>
+    <title>Air</title>
     <link rel="icon" href="./images/logo/dia-logo.svg">
     <link
       rel="stylesheet"
@@ -40,9 +40,31 @@ class="page">
           </div>
 
           <nav class="nav">
-            <a href="#menu" class="nav__burger-menu">
+            <a href="#burger-menu" class="nav__burger-menu">
               <img src="./images/burger-menu.png" alt="burger menu">
             </a>
+            <ul class="nav__burger-menu-list" id="burger-menu">
+              <li class="nav__burger-menu-item">
+                <a href="#" class="nav__burger-menu-link">
+                  About us
+                </a>
+              </li>
+              <li class="nav__burger-menu-item">
+                <a href="#" class="nav__burger-menu-link">
+                  Services
+                </a>
+              </li>
+              <li class="nav__burger-menu-item">
+                <a href="#" class="nav__burger-menu-link">
+                  Testimonials
+                </a>
+              </li>
+              <li class="nav__burger-menu-item">
+                <a href="#" class="nav__burger-menu-link">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
             <ul class="nav__list">
               <li class="nav__item">
                 <a href="#about-us" class="nav__link">
@@ -86,6 +108,16 @@ class="page">
         alt="hand watch"
         class="header__photo"
         >
+        <!-- <img
+        src="./images/header-photo-block/GwVmBgpP-PQ.png"
+        alt="photo"
+        class="header__photo"
+        >
+        <img
+        src="./images/header-photo-block/qPojqUji_y4.png"
+        alt="photo"
+        class="header__photo"
+        > -->
         <div class="header__photo-change">
           <div class="header__photo-change--wrapper">
             <a href="#"
@@ -344,7 +376,7 @@ class="page">
           <div class="components__information">
             We are sure that first-rate job is possible only if all three components are united.
           </div>
-          <button class="button">Apply</button>
+          <button class="button"><a href="#contact-us">Apply</a></button>
         </section>
       </div>
       <!-- #endregion -->
@@ -367,16 +399,19 @@ class="page">
               type="email"
               class="footer__message-input"
               placeholder="Your email"
+              required
               ><br>
               <input
               type="text"
               class="footer__message-input"
               placeholder="Your name"
+              required
               ><br>
               <input
               type="text"
               class="footer__message-input"
               placeholder="Your message"
+              required
               ><br>
               <button type="submit">Send</button>
             </form>
@@ -453,7 +488,7 @@ class="page">
             </div>
             <ul  class="footer__menu-list">
               <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">
+                <a href="#about-us" class="footer__menu-link">
                   About us
                 </a>
               </li>
@@ -463,17 +498,17 @@ class="page">
                 </a>
               </li>
               <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">
+                <a href="#our-expertise" class="footer__menu-link">
                   Work
                 </a>
               </li>
               <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">
+                <a href="#service" class="footer__menu-link">
                   Services
                 </a>
               </li>
               <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">
+                <a href="#contact-us" class="footer__menu-link">
                   Contact Us
                 </a>
               </li>

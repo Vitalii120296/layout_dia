@@ -1,3 +1,4 @@
+
 .our-expertise{
 text-align: center;
 font-size: 44px;
@@ -18,7 +19,7 @@ grid-column: 1 / -1;
 
   &__category{
     @include page-grid;
-    
+
     justify-items: center;
 
     &--align-left{
@@ -34,6 +35,12 @@ grid-column: 1 / -1;
       display: flex;
       align-items: center;
       flex-direction: column;
+
+
+
+      @include hover(transform, scale(1.1));
+
+
 
       @include on-tablet{
         grid-column: 2 / -2;

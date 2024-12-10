@@ -6,10 +6,55 @@
     position: absolute;
     top: 50%;
 
+
     @include on-small-desktop{
-      display: none;
+      // display: none;
 
     }
+
+    &-list{
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      padding: 0;
+      position: absolute;
+      left: 125px;
+      top: 0;
+      margin: 0;
+      background-color: $bg-header;
+      border: 1px solid silver;
+      border-radius: 10px;
+      z-index: 2;
+
+
+      transition: all 0.9s;
+      visibility: hidden;
+      opacity: .1;
+
+      &:target{
+        transform: translateX(20px);
+        opacity: 1;
+        visibility: visible;
+      }
+
+
+    }
+
+    &-item{
+      list-style: none;
+
+    }
+
+    &-link{
+      text-decoration: none;
+      color: #fff;
+      line-height: 25px;
+      display: inline-block;
+      padding: 0 10px;
+      width: 100%;
+    }
+
+
   }
 
 
@@ -57,11 +102,7 @@
   }
 
   &__link {
-    text-decoration: none;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 13px;
-    line-height: 150%;
+    @extend %nav-decoration;
   }
 
 }
