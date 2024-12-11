@@ -1,5 +1,3 @@
-
-
 .service{
   @include page-grid;
 
@@ -129,6 +127,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      border: none;
 
       & img{
         width: 16px;
@@ -143,6 +142,7 @@
       line-height: 150%;
       font-weight: 600;
       color: #334563;
+      cursor: pointer;
     }
   }
 }

@@ -89,7 +89,7 @@ class="page">
             </ul>
           </nav>
           <div class="nav__item--hire-us">
-            <a href="#" class="nav__link">
+            <a href="#contact-us" class="nav__link">
             Hire us
             </a>
           </div>
@@ -237,10 +237,12 @@ class="page">
                 Packaging
               </div>
               <div class="service__item--learn-more">
-                <div id="learn-more1" class="service__item--learn-more-button">
-                  <img src="./images/services/learn-more.png" alt="learn-more">
-                </div>
-                <label for="learn-more3">Learn more</label>
+                <a href="#" >
+                  <button id="learn-more1" class="service__item--learn-more-button">
+                    <img src="./images/services/learn-more.png" alt="learn-more">
+                  </button>
+                </a>
+                <label for="learn-more1">Learn more</label>
               </div>
             </div>
             <div class="service__item-2">
@@ -254,10 +256,12 @@ class="page">
                 Post Production
               </div>
               <div class="service__item--learn-more">
-                <div id="learn-more2" class="service__item--learn-more-button">
-                  <img src="./images/services/learn-more.png" alt="learn-more">
-                </div>
-                <label for="learn-more3">Learn more</label>
+                <a href="#" >
+                  <button id="learn-more2" class="service__item--learn-more-button">
+                    <img src="./images/services/learn-more.png" alt="learn-more">
+                  </button>
+                </a>
+                <label for="learn-more2">Learn more</label>
               </div>
             </div>
             <div class="service__item-3">
@@ -271,9 +275,11 @@ class="page">
                 Blog Content & SEO
               </div>
               <div class="service__item--learn-more">
-                <div id="learn-more3" class="service__item--learn-more-button">
-                  <img src="./images/services/learn-more.png" alt="learn-more">
-                </div>
+                <a href="#" >
+                  <button id="learn-more3" class="service__item--learn-more-button">
+                    <img src="./images/services/learn-more.png" alt="learn-more">
+                  </button>
+                </a>
                 <label for="learn-more3">Learn more</label>
               </div>
             </div>
@@ -288,10 +294,12 @@ class="page">
                 Strategic Partnerships
               </div>
               <div class="service__item--learn-more">
-                <div id="learn-more4" class="service__item--learn-more-button">
-                  <img src="./images/services/learn-more.png" alt="learn-more">
-                </div>
-                <label for="learn-more3">Learn more</label>
+                <a href="#" >
+                  <button id="learn-more4" class="service__item--learn-more-button">
+                    <img src="./images/services/learn-more.png" alt="learn-more">
+                  </button>
+                </a>
+                <label for="learn-more4">Learn more</label>
               </div>
             </div>
           </div>
@@ -380,13 +388,11 @@ class="page">
         </section>
       </div>
       <!-- #endregion -->
-    </main>
-    <footer>
-      <!-- #region Footer -->
-      <section class="footer__wrapper">
-        <div class="footer container">
-          <article class="footer__message">
-            <h2 class="footer__message-title">
+      <!-- #region Contact us -->
+      <section class="contact__wrapper">
+        <div class="contact container">
+          <article class="contact__message">
+            <h2 class="contact__message-title">
               Send us  a message
             </h2>
             <form
@@ -397,35 +403,36 @@ class="page">
             >
               <input
               type="email"
-              class="footer__message-input"
+              class="contact__message-input"
               placeholder="Your email"
               required
               ><br>
               <input
               type="text"
-              class="footer__message-input"
+              class="contact__message-input"
               placeholder="Your name"
               required
               ><br>
-              <input
+              <textarea
               type="text"
-              class="footer__message-input"
+              class="contact__message-input contact__message-input--textarea"
               placeholder="Your message"
               required
-              ><br>
+
+              ></textarea>
               <button type="submit">Send</button>
             </form>
           </article>
 
-          <article class="footer__contact">
-            <h2 class="footer__contact-title">
+          <article class="contact__contact">
+            <h2 class="contact__contact-title">
               Contact us
             </h2>
-            <div class="footer__contact-information">
+            <div class="contact__contact-information">
               <h3>Call us</h3>
               <p><a href="tel:654 321 987">654 321 987</a></p>
             </div>
-            <div class="footer__contact-information">
+            <div class="contact__contact-information">
               <h3>Visit us</h3>
               <p>
                 <a href="https://www.google.com/maps/search/2905+West+Drive,+Buffalo+Grove/@42.169758,-88.0347239,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
@@ -435,12 +442,12 @@ class="page">
                 </a>
               </p>
             </div>
-            <div class="footer__contact-information">
+            <div class="contact__contact-information">
               <h3>our socials</h3>
               <p>
                 <a href="#">
                   <svg
-                  class="footer__contact-information-image"
+                  class="contact__contact-information-image"
                   width="25"
                   height="25"
                   viewBox="0 0 32 32"
@@ -454,7 +461,7 @@ class="page">
                 </a>
                 <a href="#">
                   <svg
-                  class="footer__contact-information-image"
+                  class="contact__contact-information-image"
                   width="25"
                   height="25"
                   viewBox="0 0 32 25"
@@ -468,7 +475,7 @@ class="page">
                 </a>
                 <a href="#">
                   <svg
-                  class="footer__contact-information-image"
+                  class="contact__contact-information-image"
                   width="25"
                   height="25"
                   viewBox="0 0 32 32"
@@ -481,42 +488,45 @@ class="page">
               </p>
             </div>
           </article>
-
-          <article class="footer__menu">
-            <div class="footer__menu-logo">
-              <img src="./images/logo/air-logo.png" alt="air logo">
-            </div>
-            <ul  class="footer__menu-list">
-              <li class="footer__menu-item">
-                <a href="#about-us" class="footer__menu-link">
-                  About us
-                </a>
-              </li>
-              <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">
-                  Home
-                </a>
-              </li>
-              <li class="footer__menu-item">
-                <a href="#our-expertise" class="footer__menu-link">
-                  Work
-                </a>
-              </li>
-              <li class="footer__menu-item">
-                <a href="#service" class="footer__menu-link">
-                  Services
-                </a>
-              </li>
-              <li class="footer__menu-item">
-                <a href="#contact-us" class="footer__menu-link">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </article>
         </div>
       </section>
       <!-- #endregion -->
+    </main>
+    <!-- #region Footer -->
+    <footer class="footer__wrapper">
+      <section class="footer__menu container">
+        <div class="footer__menu-logo">
+          <img src="./images/logo/air-logo.png" alt="air logo">
+        </div>
+        <ul  class="footer__menu-list">
+          <li class="footer__menu-item">
+            <a href="#about-us" class="footer__menu-link">
+              About us
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">
+              Home
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#our-expertise" class="footer__menu-link">
+              Work
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#service" class="footer__menu-link">
+              Services
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#contact-us" class="footer__menu-link">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </section>
     </footer>
+    <!-- #endregion -->
   </body>
 </html>
