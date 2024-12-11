@@ -60,11 +60,18 @@
     &-link{
       color: #fff;
       text-decoration: none;
+
     }
 
 
     &-item{
       @extend %nav-decoration;
+
+      margin-bottom: 24px;
+
+      @include on-tablet{
+        margin-bottom: 0;
+      }
     }
 
   }
