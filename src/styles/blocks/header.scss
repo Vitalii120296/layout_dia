@@ -5,6 +5,10 @@
   border-radius: 0 0 30px 30px ;
   position: relative;
 
+  @include on-small-desktop{
+    height: 800px;
+  }
+
   &__information{
     margin-block: 48px;
     color: white;
@@ -34,8 +38,6 @@
 
     &-learn-more{
       @extend %button;
-
-
     }
 
   }
